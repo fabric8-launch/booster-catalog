@@ -1536,7 +1536,7 @@
     "metadata": {
       "mission": "cache",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1547,7 +1547,7 @@
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1558,7 +1558,7 @@
     "metadata": {
       "mission": "configmap",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1569,7 +1569,7 @@
     "metadata": {
       "mission": "crud",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1580,7 +1580,7 @@
     "metadata": {
       "mission": "health-check",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1591,7 +1591,7 @@
     "metadata": {
       "mission": "istio-distributed-tracing",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1602,7 +1602,7 @@
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1613,7 +1613,7 @@
     "metadata": {
       "mission": "rest-http",
       "runtime": "vert.x",
-      "version": "community"
+      "version": "community-3.x"
     }
   },
   {
@@ -1624,7 +1624,7 @@
     "metadata": {
       "mission": "cache",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1635,7 +1635,7 @@
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1646,7 +1646,7 @@
     "metadata": {
       "mission": "configmap",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1657,7 +1657,7 @@
     "metadata": {
       "mission": "crud",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1668,7 +1668,7 @@
     "metadata": {
       "mission": "health-check",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1679,7 +1679,7 @@
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
     }
   },
   {
@@ -1690,7 +1690,172 @@
     "metadata": {
       "mission": "rest-http",
       "runtime": "vert.x",
-      "version": "redhat"
+      "version": "redhat-3.x"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Cache",
+    "description": "Demonstrate how to use a cache server in Eclipse Vert.x",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-cache-example",
+    "ref": "v15",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Vert.x Circuit Breaker Example",
+    "description": "Runs a Vert.x application using a circuit breaker",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example",
+    "ref": "v30",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Vert.x - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-configmap-example",
+    "ref": "v40",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Vert.x CRUD Example using JDBC",
+    "description": "Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-crud-example",
+    "ref": "v38",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Vert.x Health Check Example",
+    "description": "Demonstrate health check and recovery mechanism",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-health-checks-example",
+    "ref": "v35",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Istio - Distributed Tracing",
+    "description": "Runs a Eclipse Vert.x application that utilizes Tracing on Istio",
+    "repo": "https://github.com/openshiftio-vertx-boosters/vertx-istio-distributed-tracing-booster",
+    "ref": "v3",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Secured Vertx - Rest & Red Hat SSO",
+    "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example",
+    "ref": "v32",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Vert.x HTTP Example",
+    "description": "Runs a Vert.x HTTP application",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-http-example",
+    "ref": "v40",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "vert.x",
+      "version": "community-4.x"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Cache",
+    "description": "Demonstrate how to use a cache server in Eclipse Vert.x",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-cache-example-redhat",
+    "ref": "v16",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Vert.x Circuit Breaker Example",
+    "description": "Runs a Vert.x application using a circuit breaker",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example-redhat",
+    "ref": "v25",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Vert.x - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-configmap-example-redhat",
+    "ref": "v29",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Vert.x CRUD Example using JDBC",
+    "description": "Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-crud-example-redhat",
+    "ref": "v25",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Vert.x Health Check Example",
+    "description": "Demonstrate health check and recovery mechanism",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-health-checks-example-redhat",
+    "ref": "v26",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Secured Vertx - Rest & Red Hat SSO",
+    "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example-redhat",
+    "ref": "v34",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
+    }
+  },
+  {
+    "name": "Vert.x HTTP Example",
+    "description": "Runs a Vert.x HTTP application",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-http-example-redhat",
+    "ref": "v26",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "vert.x",
+      "version": "redhat-4.x"
     }
   },
   {
